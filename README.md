@@ -1,9 +1,3 @@
-# TIL
-
-📝Today I Learned
-
-<br>
-
 ## 분류
 
 <br>
