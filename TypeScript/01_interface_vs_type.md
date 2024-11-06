@@ -123,3 +123,27 @@
     }
   }
   ```
+
+  - type도 class에서 구현이 가능하다.
+
+  ```typescript
+  type PositionType = {
+    x: number;
+    y: number;
+  };
+
+  class Pos implements PositionInterface {
+    x: number;
+    y: number;
+  }
+  ```
+
+<br>
+
+- 정리
+  ||interface|type|
+  |------|---|---|
+  |확장성|extends|Union, Intersection|
+  |구현|implements|implements|
+  |병합|가능|불가능|
+  |사용 목적|특정한 규약사항을 정의하고, 규약 사항을 통해서 어떠한 것을 구현하는 경우|데이터의 타입을 정의하는 경우|
