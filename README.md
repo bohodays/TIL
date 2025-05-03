@@ -19,14 +19,16 @@
 
 ---
 
-[01. Suspensive 라이브러리 도입기](https://github.com/bohodays/TIL/blob/master/React/01_Suspensive_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC_%EB%8F%84%EC%9E%85%EA%B8%B0.md)<br>
+1.  useTransition을 통한 빠른 반응성으로 유저 경험 향상시키기
 
 <br>
 <br>
 
-### 모든 자바스크립트 Deep Dive
+### 모던 자바스크립트 Deep Dive
 
-1.  변수
-2.  표현식과 문
-3.  데이터 타입
-4.  타입 변환과 단축 평가
+---
+
+[01. 변수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/01_%EB%B3%80%EC%88%98.md)<br>
+[01. 표현식과 문](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/02_%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC_%EB%AC%B8.md)<br>
+[03. 데이터 타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/03_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%83%80%EC%9E%85.md)<br>
+[04. 타입 변환과 단축 평가](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/04_%ED%83%80%EC%9E%85_%EB%B3%80%ED%99%98%EA%B3%BC_%EB%8B%A8%EC%B6%95_%ED%8F%89%EA%B0%80.md)<br>
