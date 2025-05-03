@@ -50,7 +50,54 @@
         <label>
           Filter:
           <input type="search" value={filter} onChange={handleChange} />
-        </lab를 통해 input의 입력은 즉시 반영되고, Words 컴포넌트의 필터링된 렌더링은 낮은 우선순위로 처리되어 **입력창의 응답성을 높이고 UX를 개선한다.** input 입력 자체도 부드럽게 수행할 수 있다.
+        </label>
+        <Words list={list} filter={filter} />
+      </main>
+    );
+  }
+  ```
+
+  - input에 알파벳을 입력할 때마다 handleChange메서드가 실행되면서 input의 value와 Words 컴포넌트를 모두 변경한다. 입력과 필터링이 동시에 발생하고, 이로인해 반응성과 렌더링 속도가 느려서 사용자 경험이 감소한다. input의 입력 자체도 Words 컴포넌트의 렌더링으로 인해 입력이 부드럽지 않다.
+
+- useTransition을 사용하는 경우
+
+  ```javascript
+  function FilterWords() {
+    const [list, setList] = useState([]);
+    useEffect(() => {
+      fetch(targetURL)
+        .then((r) => r.text())
+        .then((r) => setList(r.split("\n").sort()));
+    }, []);
+    const [filter, setFilter] = useState("");
+    const [deferedFilter, setDeferedFilter] = useState("");
+
+    const [isPending, startTransition] = useTransition();
+
+    const handleChange = ({ target: { value } }) => {
+      setFilter(value);
+
+      startTransition(() => {
+        setDeferedFilter(value);
+      });
+    };
+    return (
+      <main>
+        <label>
+          Filter:
+          <input type="search" value={filter} onChange={handleChange} />
+        </label>
+        {isPending ? (
+          <p>Loading</p>
+        ) : (
+          <Words list={list} filter={deferedFilter} />
+        )}
+      </main>
+    );
+  }
+  ```
+
+  - handleChange 메서드 안에서 Words 컴포넌트에 렌더링할 필터링 단어들을 분리하고 useTransition을 적용하여 작업 우선순위를 낮춘다. 이를 통해 input의 입력은 즉시 반영되고, Words 컴포넌트의 필터링된 렌더링은 낮은 우선순위로 처리되어 **입력창의 응답성을 높이고 UX를 개선한다.** input 입력 자체도 부드럽게 수행할 수 있다.
 
 <br>
 
