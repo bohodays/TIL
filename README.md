@@ -23,6 +23,7 @@
 [02. Automatic batching (React 18)](<https://github.com/bohodays/TIL/blob/master/React/02_Automatic_batching(React_18).md>)<br>
 [03. 서버에 과도한 요청을 막아주는 Debounce, Throttle 기법]()<br>
 [04. React.memo로 최적화]()<br>
+[05. 불필요한 계산을 줄이는 useMemo]()<br>
 
 <br>
 <br>
