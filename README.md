@@ -22,6 +22,7 @@
 [01. useTransition을 통한 빠른 반응성으로 유저 경험 향상시키기](https://github.com/bohodays/TIL/blob/master/React/01_useTransition%EC%9D%84_%ED%86%B5%ED%95%9C_%EB%B9%A0%EB%A5%B8_%EB%B0%98%EC%9D%91%EC%84%B1%EC%9C%BC%EB%A1%9C_%EC%9C%A0%EC%A0%80_%EA%B2%BD%ED%97%98_%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EA%B8%B0.md)<br>
 [02. Automatic batching (React 18)](<https://github.com/bohodays/TIL/blob/master/React/02_Automatic_batching(React_18).md>)<br>
 [03. 서버에 과도한 요청을 막아주는 Debounce, Throttle 기법]()<br>
+[04. React.memo로 최적화]()<br>
 
 <br>
 <br>
