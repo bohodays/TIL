@@ -21,9 +21,9 @@
 
 [01. useTransition을 통한 빠른 반응성으로 유저 경험 향상시키기](https://github.com/bohodays/TIL/blob/master/React/01_useTransition%EC%9D%84_%ED%86%B5%ED%95%9C_%EB%B9%A0%EB%A5%B8_%EB%B0%98%EC%9D%91%EC%84%B1%EC%9C%BC%EB%A1%9C_%EC%9C%A0%EC%A0%80_%EA%B2%BD%ED%97%98_%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EA%B8%B0.md)<br>
 [02. Automatic batching (React 18)](<https://github.com/bohodays/TIL/blob/master/React/02_Automatic_batching(React_18).md>)<br>
-[03. 서버에 과도한 요청을 막아주는 Debounce, Throttle 기법]()<br>
-[04. React.memo로 최적화]()<br>
-[05. 불필요한 계산을 줄이는 useMemo]()<br>
+[03. 서버에 과도한 요청을 막아주는 Debounce, Throttle 기법](https://github.com/bohodays/TIL/blob/master/React/03_%EC%84%9C%EB%B2%84%EC%97%90_%EA%B3%BC%EB%8F%84%ED%95%9C_%EC%9A%94%EC%B2%AD%EC%9D%84_%EB%A7%89%EC%95%84%EC%A3%BC%EB%8A%94_Throttle_Debounce_%EA%B8%B0%EB%B2%95.md)<br>
+[04. React.memo로 최적화](https://github.com/bohodays/TIL/blob/master/React/04_React_memo%EB%A1%9C_%EC%B5%9C%EC%A0%81%ED%99%94.md)<br>
+[05. 불필요한 계산을 줄이는 useMemo](https://github.com/bohodays/TIL/blob/master/React/05_%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C_%EA%B3%84%EC%82%B0%EC%9D%84_%EC%A4%84%EC%9D%B4%EB%8A%94_useMemo.md)<br>
 
 <br>
 <br>
