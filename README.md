@@ -38,4 +38,5 @@
 [04. 타입 변환과 단축 평가](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/04_%ED%83%80%EC%9E%85_%EB%B3%80%ED%99%98%EA%B3%BC_%EB%8B%A8%EC%B6%95_%ED%8F%89%EA%B0%80.md)<br>
 [05. 객체 리터럴](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/05_%EA%B0%9D%EC%B2%B4_%EB%A6%AC%ED%84%B0%EB%9F%B4.md)<br>
 [06. 원시 값과 객체의 비교](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/06_%EC%9B%90%EC%8B%9C_%EA%B0%92%EA%B3%BC_%EA%B0%9D%EC%B2%B4%EC%9D%98_%EB%B9%84%EA%B5%90.md)<br>
-[07. 함수]()<br>
+[07. 함수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/07_%ED%95%A8%EC%88%98.md)<br>
+[08. 스코프](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/08_%EC%8A%A4%EC%BD%94%ED%94%84.md)<br>
