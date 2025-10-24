@@ -146,3 +146,81 @@ var obj = {
 
 obj.foo();
 ```
+
+<br>
+
+#### 3. 메소드 호출
+
+---
+
+- 함수가 객체의 프로퍼티 값이면 메소드로서 호출된다. 이때 메소드 내부의 `this`는 해당 메소드를 소유한 객체, 즉 해당 메소드를 호출한 객체에 바인딩된다.
+
+```javascript
+var obj1 = {
+  name: "Lee",
+  sayName: function () {
+    console.log(this.name);
+  },
+};
+
+var obj2 = {
+  name: "Kim",
+};
+
+obj2.sayName = obj1.sayName;
+
+obj1.sayName();
+obj2.sayName();
+```
+
+- 프로토타입 객체도 메소드를 가질 수 있다. 프로토타입 객체 메소드 내부에서 사용된 this도 일반 메소드 방식과 마찬가지로 해당 메소드를 호출한 객체에 바인딩된다.
+
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.getName = function () {
+  return this.name;
+};
+
+var me = new Person("Lee");
+console.log(me.getName());
+
+Person.prototype.name = "Kim";
+console.log(Person.prototype.getName());
+```
+
+<br>
+
+#### 4. 생성자 함수 호출
+
+---
+
+- 자바스클비트의 생성자 함수는 말 그대로 객체를 생성한느 역할을 한다. 하지만 자바와 같은 객체지향 언어의 생성자 함수와는 다르게 그 형식이 정해져 있는 것이 아니라 **기존 함수에 new 연산자를 붙여서 호출하면 해당 함수는 생성자 함수로 동작한다.**
+- 이는 반대로 생각하면 생성자 함수가 아닌 일반 함수에 new 연산자를 붙여 호출하면 생성자 함수처럼 동작할 수 있다. 따라서 일반적으로 생성자 함수명은 첫문자를 대문자로 기술하여 혼란을 방지하려는 노력을 한다.
+
+```javascript
+// 생성자 함수
+function Person(name) {
+  this.name = name;
+}
+
+var me = new Person("Lee");
+console.log(me); // Person&nbsp;{name: "Lee"}
+
+// new 연산자와 함께 생성자 함수를 호출하지 않으면 생성자 함수로 동작하지 않는다.
+var you = Person("Kim");
+console.log(you); // undefined
+```
+
+- new 연산자와 함께 생성자 함수를 호출하면 this 바인딩이 메소드나 함수 호출 때와는 다르게 동작한다.
+- 생성자 함수 동작 방식
+  - new 연산자와 함께 생성자 함수를 호출하면 다음과 같은 수순으로 동작한다.
+    1. **빈 객체 생성 및 this 바인딩**
+       - 생성한 함수의 코드가 실행되기 전 빈 객체가 생성된다. 이 빈 객체가 생성자 함수가 새로 생성하는 객체이다. 이후 **생성자 함수 내에서 사용되는 this는 이 빈 객체를 가리킨다.** 그리고 생성된 빈 객체는 생성자 함수의 prototype 프로퍼티가 가리키는 객체를 자신의 프로토타입 객체로 설정한다.
+    2. **this를 통한 프로퍼티 생성**
+       - 생성된 빈 객체에 this를 사용하여 동적으로 프로퍼티나 메소드를 생성할 수 있다. this는 새로 생성된 객체를 가리키므로 this를 통해 생성한 프로퍼티와 메소드는 새로 생성된 객체에 추가된다.
+    3. **생성된 객체 반환**
+       - 반환문이 없는 경우, this는 바인딩된 새로 생성한 객체가 반환된다. 명시적으로 this를 반환하여도 결과는 같다.
+       - 반환문이 this가 아닌 다른 객체를 명시적으로 반환하는 경우, this가 아닌 해당 객체가 반환된다. 이때 this를 반환하지 않은 함수는 생성자 함수로서의 역할을 수행하지 못한다. 따라서 생성자 함수는 반환문을 명시적으로 사용하지 않는다.
