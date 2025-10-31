@@ -2,6 +2,25 @@
 
 <br>
 
+### JavaScript
+
+---
+
+[01. 변수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/01_%EB%B3%80%EC%88%98.md)<br>
+[01. 표현식과 문](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/02_%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC_%EB%AC%B8.md)<br>
+[03. 데이터 타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/03_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%83%80%EC%9E%85.md)<br>
+[04. 타입 변환과 단축 평가](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/04_%ED%83%80%EC%9E%85_%EB%B3%80%ED%99%98%EA%B3%BC_%EB%8B%A8%EC%B6%95_%ED%8F%89%EA%B0%80.md)<br>
+[05. 객체 리터럴](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/05_%EA%B0%9D%EC%B2%B4_%EB%A6%AC%ED%84%B0%EB%9F%B4.md)<br>
+[06. 원시 값과 객체의 비교](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/06_%EC%9B%90%EC%8B%9C_%EA%B0%92%EA%B3%BC_%EA%B0%9D%EC%B2%B4%EC%9D%98_%EB%B9%84%EA%B5%90.md)<br>
+[07. 함수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/07_%ED%95%A8%EC%88%98.md)<br>
+[08. 스코프](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/08_%EC%8A%A4%EC%BD%94%ED%94%84.md)<br>
+[09. 전역 변수의 문제점](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/09_%EC%A0%84%EC%97%AD_%EB%B3%80%EC%88%98%EC%9D%98_%EB%AC%B8%EC%A0%9C%EC%A0%90.md)<br>
+[10. 프로토타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/10_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)<br>
+[11. 함수 호출 방식에 의해 결정되는 this](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/11_%ED%95%A8%EC%88%98_%ED%98%B8%EC%B6%9C_%EB%B0%A9%EC%8B%9D%EC%97%90_%EC%9D%98%ED%95%B4_%EA%B2%B0%EC%A0%95%EB%90%98%EB%8A%94_this.md)<br>
+
+<br>
+<br>
+
 ### TypeScript
 
 ---
@@ -30,18 +49,3 @@
 
 <br>
 <br>
-
-### 모던 자바스크립트 Deep Dive
-
----
-
-[01. 변수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/01_%EB%B3%80%EC%88%98.md)<br>
-[01. 표현식과 문](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/02_%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC_%EB%AC%B8.md)<br>
-[03. 데이터 타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/03_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%83%80%EC%9E%85.md)<br>
-[04. 타입 변환과 단축 평가](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/04_%ED%83%80%EC%9E%85_%EB%B3%80%ED%99%98%EA%B3%BC_%EB%8B%A8%EC%B6%95_%ED%8F%89%EA%B0%80.md)<br>
-[05. 객체 리터럴](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/05_%EA%B0%9D%EC%B2%B4_%EB%A6%AC%ED%84%B0%EB%9F%B4.md)<br>
-[06. 원시 값과 객체의 비교](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/06_%EC%9B%90%EC%8B%9C_%EA%B0%92%EA%B3%BC_%EA%B0%9D%EC%B2%B4%EC%9D%98_%EB%B9%84%EA%B5%90.md)<br>
-[07. 함수](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/07_%ED%95%A8%EC%88%98.md)<br>
-[08. 스코프](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/08_%EC%8A%A4%EC%BD%94%ED%94%84.md)<br>
-[09. 전역 변수의 문제점](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/09_%EC%A0%84%EC%97%AD_%EB%B3%80%EC%88%98%EC%9D%98_%EB%AC%B8%EC%A0%9C%EC%A0%90.md)<br>
-[10. 프로토타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/10_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)<br>
