@@ -17,6 +17,7 @@
 [09. 전역 변수의 문제점](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/09_%EC%A0%84%EC%97%AD_%EB%B3%80%EC%88%98%EC%9D%98_%EB%AC%B8%EC%A0%9C%EC%A0%90.md)<br>
 [10. 프로토타입](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/10_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)<br>
 [11. 함수 호출 방식에 의해 결정되는 this](https://github.com/bohodays/TIL/blob/master/%EB%AA%A8%EB%8D%98_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_Deep_Dive/11_%ED%95%A8%EC%88%98_%ED%98%B8%EC%B6%9C_%EB%B0%A9%EC%8B%9D%EC%97%90_%EC%9D%98%ED%95%B4_%EA%B2%B0%EC%A0%95%EB%90%98%EB%8A%94_this.md)<br>
+[12. 프로토타입으로 클래스 구현하기](https://github.com/bohodays/TIL/blob/master/JavaScript/12_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C_%ED%81%B4%EB%9E%98%EC%8A%A4_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md)<br>
 
 <br>
 <br>
