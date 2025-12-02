@@ -29,7 +29,9 @@
   2. 서버와 연결 (TCP 핸드쉐이크 → TLS 핸드셰이크)
      - HTTPS의 경우
        - TCP 3-way handshake
+         - 안정적인 전송
        - TLS handshake (암호화 채널 생성)
+         - 암호화·보안
      - 위 과정을 통해 브라우저와 서버는 안전하게 데이터를 주고받을 준비를 마친다.
   3. HTTP 요청(Request) 보내기
 
