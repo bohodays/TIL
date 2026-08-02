@@ -37,6 +37,7 @@
 [05. 타입스크립트 기본기](https://github.com/bohodays/TIL/blob/master/TypeScript/05_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EA%B8%B0%EB%B3%B8%EA%B8%B0.md)<br>
 [06. 모듈시스템\_정리](https://github.com/bohodays/TIL/blob/master/TypeScript/06_%EB%AA%A8%EB%93%88%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%A0%95%EB%A6%AC.md)<br>
 [07.타입스크립트의 enum vs const enum vs as const](https://github.com/bohodays/TIL/blob/master/TypeScript/07_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98_enum_vs_const_enum_vs_as_const.md)<br>
+[08. 조건부 타입과 infer](https://github.com/bohodays/TIL/blob/master/TypeScript/08_%EC%A1%B0%EA%B1%B4%EB%B6%80_%ED%83%80%EC%9E%85%EA%B3%BC_infer.md)<br>
 
 <br>
 <br>
