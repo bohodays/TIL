@@ -1,4 +1,4 @@
-### 03. Hydration Deep Dive 정적 HTML에 자바스크립트 생명력을 불어넣는 마법과 Mismatch 해결법
+### 04. Hydration Deep Dive 정적 HTML에 자바스크립트 생명력을 불어넣는 마법과 Mismatch 해결법
 
 <br>
 
