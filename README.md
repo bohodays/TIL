@@ -52,6 +52,7 @@
 [04. React.memo로 최적화](https://github.com/bohodays/TIL/blob/master/React/04_React_memo%EB%A1%9C_%EC%B5%9C%EC%A0%81%ED%99%94.md)<br>
 [05. 불필요한 계산을 줄이는 useMemo](https://github.com/bohodays/TIL/blob/master/React/05_%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C_%EA%B3%84%EC%82%B0%EC%9D%84_%EC%A4%84%EC%9D%B4%EB%8A%94_useMemo.md)<br>
 [06. 대량의 데이터 렌더링 최적화 (Virtualized List)](<https://github.com/bohodays/TIL/blob/master/React/06_%EB%8C%80%EB%9F%89%EC%9D%98_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%A0%8C%EB%8D%94%EB%A7%81_%EC%B5%9C%EC%A0%81%ED%99%94(Virtualized_List).md>)<br>
+[08. React Fiber 아키텍처 (재조정 알고리즘)](<https://github.com/bohodays/TIL/blob/master/React/08_React_Fiber_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98_%EC%9E%AC%EC%A1%B0%EC%A0%95_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md>)<br>
 
 <br>
 <br>
