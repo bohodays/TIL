@@ -22,6 +22,7 @@
 [14. 자바스크립트 객체지향 프로그래밍](https://github.com/bohodays/TIL/blob/master/JavaScript/14_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)<br>
 [15. 전역 객체](https://github.com/bohodays/TIL/blob/master/JavaScript/15_%EC%A0%84%EC%97%AD_%EA%B0%9D%EC%B2%B4.md)<br>
 [16. 이벤트 루프와 마이크로태스크·매크로태스크 큐](https://github.com/bohodays/TIL/blob/master/JavaScript/16_%EC%9D%B4%EB%B2%A4%ED%8A%B8_%EB%A3%A8%ED%94%84%EC%99%80_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%ED%83%9C%EC%8A%A4%ED%81%AC_%EB%A7%A4%ED%81%AC%EB%A1%9C%ED%83%9C%EC%8A%A4%ED%81%AC_%ED%81%90.md)<br>
+[17. 가비지 컬렉션과 메모리 누수](https://github.com/bohodays/TIL/blob/master/JavaScript/17_%EA%B0%80%EB%B9%84%EC%A7%80_%EC%BB%AC%EB%A0%89%EC%85%98%EA%B3%BC_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EB%88%84%EC%88%98.md)<br>
 
 <br>
 <br>
