@@ -77,3 +77,4 @@
 ---
 
 [01. staleTime과 gcTime](https://github.com/bohodays/TIL/blob/master/TanStackQuery/01_staleTime%EA%B3%BC_gcTime.md)<br>
+[02. Mutation과 캐시 갱신 전략](https://github.com/bohodays/TIL/blob/master/TanStackQuery/02_Mutation%EA%B3%BC_%EC%BA%90%EC%8B%9C_%EA%B0%B1%EC%8B%A0_%EC%A0%84%EB%9E%B5.md)<br>
