@@ -42,6 +42,7 @@
 [07.타입스크립트의 enum vs const enum vs as const](https://github.com/bohodays/TIL/blob/master/TypeScript/07_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98_enum_vs_const_enum_vs_as_const.md)<br>
 [08. 조건부 타입과 infer](https://github.com/bohodays/TIL/blob/master/TypeScript/08_%EC%A1%B0%EA%B1%B4%EB%B6%80_%ED%83%80%EC%9E%85%EA%B3%BC_infer.md)<br>
 [09. 템플릿 리터럴 타입](https://github.com/bohodays/TIL/blob/master/TypeScript/09_%ED%85%9C%ED%94%8C%EB%A6%BF_%EB%A6%AC%ED%84%B0%EB%9F%B4_%ED%83%80%EC%9E%85.md)<br>
+[10. satisfies 연산자](https://github.com/bohodays/TIL/blob/master/TypeScript/10_satisfies_%EC%97%B0%EC%82%B0%EC%9E%90.md)<br>
 
 <br>
 <br>
@@ -59,6 +60,7 @@
 [07. RFC 읽어보기 (Server Components)](<https://github.com/bohodays/TIL/blob/master/React/07_RFC_%EC%9D%BD%EC%96%B4%EB%B3%B4%EA%B8%B0_(Server_Components).md>)<br>
 [08. React Fiber 아키텍처 (재조정 알고리즘)](<https://github.com/bohodays/TIL/blob/master/React/08_React_Fiber_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98_%EC%9E%AC%EC%A1%B0%EC%A0%95_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md>)<br>
 [09. React Compiler (자동 메모이제이션)](<https://github.com/bohodays/TIL/blob/master/React/09_React_Compiler_%EC%9E%90%EB%8F%99_%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98.md>)<br>
+[10. Suspense의 동작 원리와 스트리밍 SSR](https://github.com/bohodays/TIL/blob/master/React/10_Suspense%EC%9D%98_%EB%8F%99%EC%9E%91_%EC%9B%90%EB%A6%AC%EC%99%80_%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D_SSR.md)<br>
 
 <br>
 <br>
